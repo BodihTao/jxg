@@ -77,7 +77,7 @@ srtBlogPostList = get_between(strList, " : [", "],")
 
 
 def get_blog_count(text):
-    strContent = get_between(text, "全部博文", "<!--第一列end-->")
+    strContent = get_between(text, "<!--第二列start-->", "<!-- 列表 START -->")
     # 获取页数
     count = get_between(strContent, "<em>(", ")</em>")
     return int(count)
@@ -92,7 +92,7 @@ strBlogName = get_between(strTitle, "博文_", "_新浪博客")
 
 # Step 2: get list for the rest of pages
 for intPage in range(blog_page_amount - 1):
-    strURL = k_sina_article_url + strUID + "_0_" + str(intPage + 2) + ".html"
+    strURL = k_sina_article_url + strUID + "_10_" + str(intPage + 2) + ".html"
     htmlText = get_html_body(strURL)
     strPost = get_between(htmlText, strSortDOM, srtCategoryDom)
     strPostList = get_between(strPost, " : [", "],")
