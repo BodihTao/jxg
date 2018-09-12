@@ -106,7 +106,7 @@ arrBlogPost = strPostID.split(',')
 if orderInput != "desc":
     arrBlogPost.reverse()
 
-kBlogDir = "sinaBlogs"
+kBlogDir = "docs"
 # python 3.2创建目录新增了可选参数existok
 # 把 exist_ok 设置True，创建目录如果已经存在则不会往外抛出异常
 if False == os.path.exists(kBlogDir):
