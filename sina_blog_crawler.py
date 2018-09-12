@@ -2,7 +2,7 @@
 # -*_ coding: utf-8 -*-
 
 import sys
-import urllib.request
+import urllib2
 import codecs
 import os
 from time import strftime
@@ -49,7 +49,7 @@ except:
 # python2.7 中，使用 urllib2.urlopen(strUserInput) 获得的是 string
 # 在 3.5 中使用，得到的是 bit,需要 decode
 def get_html_body(url):
-    response = urllib.request.urlopen(url)
+    response = urllib2.urlopen(url)
     text = response.read()
     text = text.decode(encoding='utf-8', errors='ignore')
     response.close()
@@ -77,7 +77,7 @@ srtBlogPostList = get_between(strList, " : [", "],")
 
 
 def get_blog_count(text):
-    strContent = get_between(text, "<!--第二列start-->", "<!-- 列表 START -->")
+    strContent = get_between(text, u"<!--第二列start-->", u"<!-- 列表 START -->")
     # 获取页数
     count = get_between(strContent, "<em>(", ")</em>")
     return int(count)
@@ -88,7 +88,7 @@ blog_amount = get_blog_count(htmlText)
 blog_page_amount = int(blog_amount / 50) + 1
 
 strTitle = get_between(htmlText, "<title>", "</title>")
-strBlogName = get_between(strTitle, "博文_", "_新浪博客")
+strBlogName = get_between(strTitle, u"博文_", u"_新浪博客")
 
 # Step 2: get list for the rest of pages
 for intPage in range(blog_page_amount - 1):
@@ -109,18 +109,19 @@ if orderInput != "desc":
 kBlogDir = "sinaBlogs"
 # python 3.2创建目录新增了可选参数existok
 # 把 exist_ok 设置True，创建目录如果已经存在则不会往外抛出异常
-os.makedirs(kBlogDir, exist_ok=True)
+if False == os.path.exists(kBlogDir):
+    os.makedirs(kBlogDir)
 
 
 def ge_artile_title(page_code, name):
     title = get_between(page_code, "<title>", "</title>")
-    title = title.replace("_新浪博客", "")
+    title = title.replace(u"_新浪博客", "")
     title = title.replace("_" + name, "")
     return title
 
 
 def get_artile_body(text):
-    body = get_between(text, "<!-- 正文开始 -->", "<!-- 正文结束 -->")
+    body = get_between(text, u"<!-- 正文开始 -->", u"<!-- 正文结束 -->")
     body = body.replace("http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif", "")
     body = body.replace('src=""', "")
     body = body.replace("real_src =", "src =")
@@ -161,7 +162,7 @@ for strPostID in arrBlogPost:
     strFileName = "Post_" + str(intCounter) + "_" + strPostID + ".html"
     # %s 的 format 字符串是 是 2.x 写法, 3.x 使用 str.format()
     # 参考[http://blog.xiayf.cn/2013/01/26/python-string-format/]
-    strHTML4Post = '''
+    strHTML4Post = u'''
         <html>
             <head>
                 <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
@@ -184,7 +185,7 @@ for strPostID in arrBlogPost:
     print(intCounter, "/", blog_amount)
 
 strTimestamp = str(strftime("%Y-%m-%d %H:%M:%S"))
-strHTMLBody = '''
+strHTMLBody = u'''
     <html>
         <head>
             <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
