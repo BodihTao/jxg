@@ -1,4 +1,5 @@
 # sina-blog-spider
+python sina_blog_crawler.py http://blog.sina.com.cn/jixiangguozi desc
 
 ## python 新浪博客归档工具
 
