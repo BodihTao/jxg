@@ -159,7 +159,7 @@ for strPostID in arrBlogPost:
     strTime = get_artile_time(htmlText)
 
     # Write into local file
-    strFileName = "Post_" + str(intCounter) + "_" + strPostID + ".html"
+    strFileName = "Post_"  + strPostID + ".html"
     # %s 的 format 字符串是 是 2.x 写法, 3.x 使用 str.format()
     # 参考[http://blog.xiayf.cn/2013/01/26/python-string-format/]
     strHTML4Post = u'''
