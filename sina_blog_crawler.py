@@ -92,7 +92,7 @@ strBlogName = get_between(strTitle, u"博文_", u"_新浪博客")
 
 # Step 2: get list for the rest of pages
 for intPage in range(blog_page_amount - 1):
-    strURL = k_sina_article_url + strUID + "_10_" + str(intPage + 2) + ".html"
+    strURL = k_sina_article_url + strUID + "_0_" + str(intPage + 2) + ".html"
     htmlText = get_html_body(strURL)
     strPost = get_between(htmlText, strSortDOM, srtCategoryDom)
     strPostList = get_between(strPost, " : [", "],")
@@ -130,7 +130,7 @@ def get_artile_body(text):
 
 def get_artile_time(text):
     dom1 = '<span class="time SG_txtc">('
-    dom2 = ')</span><div class="turnBoxzz">'
+    dom2 = ')</span>'
     return get_between(text, dom1, dom2)
 
 
