@@ -67,7 +67,7 @@ if len(strUID) > 10:
     sys.exit(0)
 
 # Step 1: get list for first page and article count
-htmlText = get_html_body(k_sina_article_url + strUID + "_10_1.html")
+htmlText = get_html_body(k_sina_article_url + strUID + "_0_1.html")
 
 # 文章编号列表
 strSortDOM = "$blogArticleSortArticleids"
