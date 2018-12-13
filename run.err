@@ -42,3 +42,449 @@ Traceback (most recent call last):
   File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
     raise URLError(err)
 urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ycb6.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ycmn.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ycsq.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ycsq.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yday.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yday.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ydv2.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yee4.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yee4.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yf3y.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+        response = self._open(req, data)
+htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yfq6.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yg69.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ygb1.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ygb1.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102ygxw.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yh54.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yh54.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yh54.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yiil.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yiue.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yixg.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 182, in <module>
+    write_file(kBlogDir + '/' + strFileName, strHTML4Post)
+  File "sina_blog_crawler.py", line 141, in write_file
+    objFileIndex = codecs.open(file_path, "w", 'utf-8')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+IOError: [Errno 13] Permission denied: u'docs/Post_9f2522c20102yixg.html'
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Traceback (most recent call last):
+  File "sina_blog_crawler.py", line 59, in <module>
+    htmlText = get_html_body(urlInput)
+  File "sina_blog_crawler.py", line 52, in get_html_body
+    response = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
