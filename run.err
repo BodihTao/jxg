@@ -488,3 +488,11 @@ Traceback (most recent call last):
   File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
     raise URLError(err)
 urllib2.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+The following paths are ignored by one of your .gitignore files:
+run.log
+Use -f if you really want to add them.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
