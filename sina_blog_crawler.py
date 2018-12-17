@@ -147,7 +147,7 @@ intCounter = 0
 # index.html 中的内容
 strHTML4Index = ""
 
-for strPostID in arrBlogPost[-10:-1]:
+for strPostID in arrBlogPost[-20:-1]:
     intCounter += 1
 
     htmlText = get_html_body(k_sina_blog_url + strPostID + '.html')
