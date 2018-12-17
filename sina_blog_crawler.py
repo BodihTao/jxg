@@ -147,7 +147,7 @@ intCounter = 0
 # index.html 中的内容
 strHTML4Index = ""
 
-for strPostID in arrBlogPost[-20:-1]:
+for strPostID in arrBlogPost[::-1][0:21]:
     intCounter += 1
 
     htmlText = get_html_body(k_sina_blog_url + strPostID + '.html')
@@ -182,7 +182,7 @@ for strPostID in arrBlogPost[-20:-1]:
     write_file(kBlogDir + '/' + strFileName, strHTML4Post)
 
     strHTML4Index = strHTML4Index + '<li><a href="' + strFileName + '">' + strTitle + '</a></li>\n'
-    print(intCounter, "/", blog_amount)
+    print(intCounter, strFileName)
 
 strTimestamp = str(strftime("%Y-%m-%d %H:%M:%S"))
 strHTMLBody = u'''
