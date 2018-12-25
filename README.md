@@ -1,6 +1,6 @@
 # sina-blog-spider
 python sina_blog_crawler.py http://blog.sina.com.cn/jixiangguozi desc
-
+test
 ## python 新浪博客归档工具
 
 - 用于下载并归档指定新浪博客作者全部文章的 Python 脚本；
